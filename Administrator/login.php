@@ -27,7 +27,7 @@ if ($usuario === $usuario_correcto && $palabra_secreta === $palabra_secreta_corr
     $_SESSION["usuario"] = $usuario;
 
     # Luego redireccionamos a la página "Secreta"
-    header("Location: Data.php");
+    header("Location: Secreta.php");
 } else {
     # No coinciden, así que simplemente imprimimos un
     # mensaje diciendo que es incorrecto
